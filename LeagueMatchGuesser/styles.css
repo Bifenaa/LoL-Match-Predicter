@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/9112b576009313.5c5ca8e8c45c3.jpg");
+    background-size: 160%;
+    background-position: 50%;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#league {
+  display: block;
+  margin-left: 30%;
+  margin-right: auto;
+  margin-top: 1%;
+  width:4px;
+
+}
+
+#result {
+  height: 100px;
+  width: 500px;
+  display: block;
+  margin: 40px;
+  margin-left: 700px;
+  margin-top: 70px; 
+  opacity: 100%;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+
+}
+
