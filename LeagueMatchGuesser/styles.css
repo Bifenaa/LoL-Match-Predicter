@@ -1,25 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
-    font-size: 50px;
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/9112b576009313.5c5ca8e8c45c3.jpg");
-    background-size: 160%;
-    background-position: 50%;
+  font-family: fantasy;
+  font-size: 50px;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/9112b576009313.5c5ca8e8c45c3.jpg");
+   background-size: 160%;
+   background-position: 50%;
 }
 
 #button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left: 38%;
+  margin-right: auto;
+  margin-top: 1%;
+  padding: 0;
+  border: none;
+  background: none;
 }
-
 
 #league {
   display: block;
-  margin-left: 30%;
-  margin-right: auto;
-  margin-top: 1%;
-  width:4px;
-
+  position: relative;
+  left: 34%;
+ 
 }
 
 #result {
@@ -27,12 +28,11 @@ body {
   width: 500px;
   display: block;
   margin: 40px;
-  margin-left: 700px;
-  margin-top: 70px; 
-  opacity: 100%;
+  margin-left: 705px;
+  margin-top: 60px; 
   position: relative;
   color: #ffffff;
   text-align: center;
-
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
 }
-
